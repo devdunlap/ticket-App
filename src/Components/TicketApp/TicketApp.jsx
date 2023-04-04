@@ -6,12 +6,18 @@ import React from 'react'
 const TicketApp = (props) => {
   const { team } = props
   
-  
+  const mappedTeam = team.map((member) => {
+    return (
+    <div>
+    <p>{member.name}</p>
+    <p>{member.role}</p>
+    </div>
+    )
+  })
   
     return (
-    <div>{team[3].name } + " " +
-      {team[3].role }
-
+    <div>
+      {mappedTeam}
     </div>
 
   )
