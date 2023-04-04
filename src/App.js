@@ -1,11 +1,13 @@
 import React from 'react'
-
-
+import TicketApp from './Components/TicketApp/TicketApp'
+import team from './Data/team'
 
 const App = () => {
   
   return (
-    <div>App</div>
+    <div>
+      <TicketApp team ={team}/>
+      </div>
   )
 }
 
