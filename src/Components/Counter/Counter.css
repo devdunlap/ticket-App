@@ -1,0 +1,27 @@
+.Counter {
+  display: flex;
+  align-items: center;
+}
+
+.Counter p {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.Counter button {
+  width: 30px;
+  height: 30px;
+  background-color: #963737;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.Counter button:hover {
+  background-color: #ddd;
+}
+
+.Counter button:active {
+  background-color: #ccc;
+}/*# sourceMappingURL=Counter.css.map */

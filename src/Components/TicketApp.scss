@@ -1,0 +1,24 @@
+.membercard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    }
+    
+    h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    }
+    
+    p {
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 20px;
+    }
+    
+    .Counter {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    }
