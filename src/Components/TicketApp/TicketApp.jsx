@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 // import team from '../../data/team.json'
 import Counter from '../Counter/Counter'
-
+import '../TicketApp.scss'
 const TicketApp = (props) => {
  
   const { team } = props
